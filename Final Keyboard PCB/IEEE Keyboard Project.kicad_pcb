@@ -43514,5 +43514,46 @@
 			(justify left bottom)
 		)
 	)
+	(zone
+		(net "+3V3")
+		(layer "In1.Cu")
+		(uuid "06a5a2da-735c-42ac-94e1-f9459597c5e5")
+		(hatch edge 0.5)
+		(priority 1)
+		(connect_pads
+			(clearance 0.1)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 67.5 18) (xy 25 133.5) (xy 173 183.5) (xy 214 68)
+			)
+		)
+	)
+	(zone
+		(net "GND")
+		(layer "In2.Cu")
+		(uuid "dc813c4b-732c-4894-a58c-44875dc8150f")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0.1)
+		)
+		(min_thickness 0.25)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 67.5 18) (xy 25 133.5) (xy 173 183.5) (xy 214 68)
+			)
+		)
+	)
 	(embedded_fonts no)
 )
